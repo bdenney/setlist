@@ -8,9 +8,13 @@ function SongList({songs, onAddToSetlist, onDelete}) {
     });
 
     return(
+        <>
+        <h2>Song List</h2>
         <div className="song-list">
+            
             {songListItems}
         </div>
+        </>
     );
 }
 

@@ -59,6 +59,7 @@ function SetlistBuilder() {
     return(
         <div className="builder">
             <SongList songs={songs} onAddToSetlist={handleAddToSetlist} onDelete={handleDelete}/>
+            <div className="vl"></div>
             <Setlist setlist={setlist} onRemoveFromSetlist={handleOnRemoveFromSetlist} onDelete={handleDelete}/>
         </div>
     );

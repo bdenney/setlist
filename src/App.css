@@ -1,5 +1,26 @@
-html, body, #root, .App, .builder, .song-list {
-    height:100%;
+html, body, #root {
+    padding: 0em 1em 0em 1em;
+    margin: 0;
+    height:100vh;
+    background-color: black;
+    color:white;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+header {
+    padding: 1em 0em 0em 0em;
+    height:20%;
+}
+
+h1, h2 {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 4em;
+    margin:0;
+}
+
+h2 {
+    font-size: 3em;
 }
 
 h3, h4 {
@@ -13,29 +34,77 @@ h3, h4 {
 
 .builder {
     display:flex;
+    gap:2em;
+    width:100%;
+    height:75%;
+    width:auto;
 }
 
 .song-list {
-    display:flex;
-    flex-direction: column;
-    max-width:20%;
+    width:30%;
+    min-width:30%;
+    height:100%;
+    overflow-y:auto;
+    margin-left:2em;
 }
 
 .setlist {
-    margin-left:20em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: .25em;
+    column-gap: 1em; 
+    width:auto;
+    overflow-y:auto;
 }
 
 .song {
     display: flex;
     gap: 1em;
-    height: 20%;
-    width: 80%;
+    height: 10%;
+    width: 100%;
+    min-width: 100%;
     margin-bottom: 1em;
 }
+
 .song-info { 
-    width:100%;
+    overflow-x:auto;
+    overflow-y:hidden
 }
 
 .song img {
     object-fit:cover;
+}
+
+.song button {
+    margin-left: auto;
+}
+
+/**
+*  SCROLLBAR
+*/
+::-webkit-scrollbar {
+    width: .25em;
+    height: .25em;
+}
+  
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .75);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .75);
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 100%;
+}
+
+hr {
+    border: 1px solid white;
 }

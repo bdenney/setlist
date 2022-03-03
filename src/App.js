@@ -4,10 +4,10 @@ import SetlistBuilder from './components/SetlistBuilder'
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header/>
       <SetlistBuilder />
-    </div>
+    </>
   );
 }
 

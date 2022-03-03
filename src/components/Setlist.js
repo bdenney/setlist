@@ -8,9 +8,13 @@ function Setlist({setlist, onRemoveFromSetlist, onDelete}) {
     })
 
     return(
+        <>
+        <h2>Setlist</h2>
         <div className="setlist">
+            
             {setlistListItems}
         </div>
+        </>
     );
 }
 

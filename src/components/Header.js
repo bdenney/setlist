@@ -4,6 +4,7 @@ function Header() {
     return(
         <header>
             <h1>Emo Setlist</h1>
+            <hr></hr>
         </header>
     )
 }

@@ -1,6 +1,12 @@
 import React from 'react'
 
 function Song({song, onSongClicked, onDelete}) {
+
+    function handleDelete(event) {
+        event.stopPropagation();
+        onDelete(song);
+    }
+
     return(
         <div className="song" onClick={()=>onSongClicked(song)}>
             <img src={song.image}/>
@@ -8,7 +14,7 @@ function Song({song, onSongClicked, onDelete}) {
                 <h3>{song.song}</h3>
                 <h4>{song.artist}</h4>
             </div>
-            <button onClick={() => onDelete(song)}>X</button>
+            <button onClick={handleDelete}>X</button>
         </div>
     );
 }
