@@ -11,16 +11,25 @@ h3, h4 {
     overflow: hidden;
 }
 
+.builder {
+    display:flex;
+}
+
 .song-list {
     display:flex;
     flex-direction: column;
+    max-width:20%;
+}
+
+.setlist {
+    margin-left:20em;
 }
 
 .song {
     display: flex;
     gap: 1em;
     height: 20%;
-    width: 20%;
+    width: 80%;
     margin-bottom: 1em;
 }
 .song-info { 

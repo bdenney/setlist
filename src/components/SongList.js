@@ -1,10 +1,10 @@
 import React from 'react'
 import Song from './Song'
 
-function SongList({songs}) {
+function SongList({songs, onAddToSetlist, onDelete}) {
 
     const songListItems = songs.map(song => {
-        return <Song song={song} />
+        return <Song key={song.id} song={song} onSongClicked={onAddToSetlist} onDelete={onDelete}/>
     });
 
     return(
