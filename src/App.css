@@ -1,0 +1,32 @@
+html, body, #root, .App, .builder, .song-list {
+    height:100%;
+}
+
+h3, h4 {
+    display:block;
+    margin:0;
+    width:100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.song-list {
+    display:flex;
+    flex-direction: column;
+}
+
+.song {
+    display: flex;
+    gap: 1em;
+    height: 20%;
+    width: 20%;
+    margin-bottom: 1em;
+}
+.song-info { 
+    width:100%;
+}
+
+.song img {
+    object-fit:cover;
+}
