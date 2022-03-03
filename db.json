@@ -1,0 +1,172 @@
+{
+    "tracks" : [
+        {
+            "id": 1,
+            "artist": "Motion City Soundtrack",
+            "song": "The Future Freaks Me Out",
+            "image": "./images/motion-city-sountrack-i-am-the-movie.jpeg"
+        },
+        {
+            "id": 2,
+            "artist": "Alive With the Glory of Love",
+            "song": "Say Anything",
+            "image": "./images/say-anything-is-a-real-boy.jpeg"
+        },
+        {
+            "id": 3,
+            "artist": "Misery Business",
+            "song": "Paramore",
+            "image": "./images/paramore-riot.jpeg"
+        },
+        {
+            "id": 4,
+            "artist": "Helena",
+            "song": "My Chemical Romance",
+            "image": "./images/my-chemical-romance-three-cheers.jpeg"
+        },
+        {
+            "id": 5,
+            "artist": "Ocean Avenue",
+            "song": "Yellowcard",
+            "image": "./images/yellowcard-ocean-avenue.jpeg"
+        },
+        {
+            "id": 6,
+            "artist": "Fall Out Boy",
+            "song": "Dance, Dance",
+            "image": "./images/fall-out-boy-from-under-the-cork-tree.jpeg"
+        },
+        {
+            "id": 7,
+            "artist": "Story Of The Year",
+            "song": "Until the Day I Die",
+            "image": "./images/story-of-the-year-page-avenue.jpeg"
+        },
+        {
+            "id": 8,
+            "artist": "Simple Plan",
+            "song": "I'd Do Anything",
+            "image": "./images/simple-plan-no-pads-no-helmets.jpeg"
+        },
+        {
+            "id": 9,
+            "artist": "American Hi-Fi",
+            "song": "Flavor Of The Week",
+            "image": "./images/american-hifi.jpeg"
+        },
+        {
+            "id": 10,
+            "artist": "Blink 182",
+            "song": "The Rock Show",
+            "image": "./images/blink-182-take-off-your-pants.jpeg"
+        },
+        {
+            "id": 11,
+            "artist": "Brand New",
+            "song": "Jude Law And A Semester Abroad",
+            "image": "./images/brand-new-your-favorite-weapon.jpeg"
+        },
+        {
+            "id": 12,
+            "artist": "Bayside",
+            "song": "Devotion And Desire",
+            "image": "./images/bayside.jpeg"
+        },
+        {
+            "id": 13,
+            "artist": "Motion City Soundtrack",
+            "song": "My Favorite Accident",
+            "image": "./images/motion-city-soundtrack-i-am-the-movie.jpeg"
+        },
+        {
+            "id": 14,
+            "artist": "From First To Last",
+            "song": "Note to Self",
+            "image": "./images/from-first-to-last-dear-diary.jpeg"
+        },
+        {
+            "id": 15,
+            "artist": "The Starting Line",
+            "song": "The Best Of Me",
+            "image": "./images/starting-line.jpeg"
+        },
+        {
+            "id": 16,
+            "artist": "My Chemical Romance",
+            "song": "I'm Not Okay (I Promise)",
+            "image": "./images/my-chemical-romance-three-cheers.jpeg"
+        },
+        {
+            "id": 17,
+            "artist": "Fall Out Boy",
+            "song": "Sugar, We're Goin Down",
+            "image": "./images/fall-out-boy-from-under-the-cork-tree.jpeg"
+        },
+        {
+            "id": 18,
+            "artist": "Sum 41",
+            "song": "Fat Lip",
+            "image": "./images/sum-41-all-killer.jpeg"
+        },
+        {
+            "id": 19,
+            "artist": "Panic! At The Disco",
+            "song": "I Write Sins Not Tragedies",
+            "image": "./images/panic-at-the-disco-i-write.jpeg"
+        },
+        {
+            "id": 20,
+            "artist": "Dashboard Confessional",
+            "song": "Vindicated",
+            "image": "./images/dashboard-confessional.jpeg"
+        },
+        {
+            "id": 21,
+            "artist": "Brand New",
+            "song": "The Quiet Things That No One Ever Knows",
+            "image": "./images/brand-new-your-favorite-weapon.jpeg"
+        },
+        {
+            "id": 22,
+            "artist": "New Found Glory",
+            "song": "All Downhill From Here",
+            "image": "./images/new-found-glory-catalyst.jpeg"
+        },
+        {
+            "id": 23,
+            "artist": "Something Corporate",
+            "song": "I Woke Up In A Car",
+            "image": "./images/something-corporate.jpeg"
+        },
+        {
+            "id": 24,
+            "artist": "Goldfinger",
+            "song": "99 Red Balloons",
+            "image": "./images/goldfinger.jpeg"
+        },
+        {
+            "id": 25,
+            "artist": "Rufio",
+            "song": "Above Me",
+            "image": "./images/rufio.jpeg"
+        },
+        {
+            "id": 26,
+            "artist": "Hawthorne Heights",
+            "song": "Ohio Is for Lovers",
+            "image": "./images/hawthorne-heights.jpeg"
+        },
+        {
+            "id": 27,
+            "artist": "Taking Back Sunday",
+            "song": "Cute Without The 'E' (Cut From The Team)",
+            "image": "./images/taking-back-sunday.jpeg"
+        },
+        {
+            "id": 28,
+            "artist": "Bayside",
+            "song": "Pretty Vacant",
+            "image": "./images/bayside-vacancy.jpeg"
+        }
+    ]
+}
