@@ -1,20 +1,15 @@
 import React from 'react'
 
-function Song({song, onSongClicked, onDelete}) {
-
-    function handleDelete(event) {
-        event.stopPropagation();
-        onDelete(song);
-    }
+function Song() {
 
     return(
-        <div className="song" onClick={()=>onSongClicked(song)}>
-            <img src={song.image}/>
+        <div className="song" onClick={()=>console.log("Song clicked...")}>
+            <img src=""/>
             <div className="song-info">
-                <h3>{song.song}</h3>
-                <h4>{song.artist}</h4>
+                <h3>SONG</h3>
+                <h4>ARTIST</h4>
             </div>
-            <button onClick={handleDelete}>X</button>
+            <button onClick={()=> console.log("Delete clicked...")}>X</button>
         </div>
     );
 }

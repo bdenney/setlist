@@ -1,18 +1,12 @@
 import React from 'react'
-import Song from './Song'
 
-function SongList({songs, onAddToSetlist, onDelete}) {
-
-    const songListItems = songs.map(song => {
-        return <Song key={song.id} song={song} onSongClicked={onAddToSetlist} onDelete={onDelete}/>
-    });
+function SongList() {
 
     return(
         <>
         <h2>Song List</h2>
         <div className="song-list">
-            
-            {songListItems}
+            {/** Songs go here... */}
         </div>
         </>
     );
