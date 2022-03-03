@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return(
         <header>
-            <h1>Emo Setlist</h1>
+            <h1>./Sadness</h1>
             <hr></hr>
         </header>
     )

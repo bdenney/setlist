@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# ./Sadness
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![./Sadness](./finished-project.png)
 
-## Available Scripts
+By day you're a coder [working in a office](https://www.youtube.com/watch?v=9QQQetnmxcw), but your heart, your _FEELINGS_, need a release. Naturally, you've decided to start an emo cover band called "./Sadness" with your fellow Flatiron alumni.
 
-In the project directory, you can run:
+After days of practice you've decided you have the skills to play a small show at your friend's Brooklyn loft. Last step is to build a playlist that will bring down the house.
 
-### `npm start`
+[Primo Emo Spotify Playlist](https://open.spotify.com/playlist/24AulAf9bmWFqqUSi5y7Sj?si=4f048dfe53ff4c76)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+For this project, you’ll be building out a React application that displays a
+list of songs, among other features. Try your best to find the right
+places to insert code into the established code base.
 
-### `npm test`
+Part of what this code challenge is testing is your ability to follow given
+instructions. While you will definitely have a significant amount of freedom in
+how you implement the features, be sure to carefully read the directions for
+setting up the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
 
-### `npm run build`
+1. Run `npm install` in your terminal.
+2. Run `npm run server`. This will run your backend on port `3110`.
+3. In a new terminal, run `npm start`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure to open [http://localhost:3110/tracks](http://localhost:3110/tracks) in
+the browser to verify that your backend is working before you proceed!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The base URL for your backend is: `http://localhost:3110`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Core Deliverables
 
-### `npm run eject`
+As a user, I should be able to:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- See all the details of the songs rendered in `SongList`.
+- Add a song from the `SongList` to `Setlist` by clicking on it. The selected song should render in the `Setlist` component. The song can be added only **once**. The item **does not** disappear from the `SongList`.
+- Remove a song from `Setlist` by clicking on it. The song should disappear from the `Setlist` component.
+- Remove a song forever </\3 by clicking the delete button at the bottom of the each `Song`. This should delete the song from both the backend and the frontend.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Endpoints for Core Deliverables
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### GET /tracks
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Example Response:
 
-## Learn More
+```json
+[
+    {
+        "id": 1,
+        "artist": "Motion City Soundtrack",
+        "song": "The Future Freaks Me Out",
+        "image": "./images/motion-city-soundtrack-i-am-the-movie.jpeg"
+    },
+    {
+        "id": 2,
+        "artist": "Alive With the Glory of Love",
+        "song": "Say Anything",
+        "image": "./images/say-anything-is-a-real-boy.jpeg"
+    },
+    {
+        "id": 3,
+        "artist": "Misery Business",
+        "song": "Paramore",
+        "image": "./images/paramore-riot.jpeg"
+    }
+]
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### DELETE /shows/:id
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Example Response:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```json
+{}
+```
