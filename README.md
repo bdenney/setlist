@@ -2,7 +2,7 @@
 
 ![./Sadness](./finished-project.png)
 
-By day you're a coder [working in a office](https://www.youtube.com/watch?v=9QQQetnmxcw), but your heart, your _FEELINGS_, need a release. Naturally, you've decided to start an emo cover band called "./Sadness" with your fellow Flatiron alumni.
+By day you're a coder [working in an office](https://www.youtube.com/watch?v=9QQQetnmxcw), but your heart, your _FEELINGS_, need a release. Naturally, you've decided to start an emo cover band called "./Sadness" with your fellow Flatiron alumni.
 
 After days of practice you've decided you have the skills to play a small show at your friend's Brooklyn loft. Last step is to build a playlist that will bring down the house.
 
